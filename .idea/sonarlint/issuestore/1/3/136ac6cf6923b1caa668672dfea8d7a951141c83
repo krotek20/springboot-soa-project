@@ -1,0 +1,6 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âŠáY
+c
+java:S2259Y"MA "NullPointerException" could be thrown; "paymentResponse" is nullable here.(ñÛü
+h
+java:S2259M"MA "NullPointerException" could be thrown; "productResponse" is nullable here.(ÿº”ûÿÿÿÿ

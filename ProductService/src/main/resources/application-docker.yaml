@@ -1,0 +1,20 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5434/product_service
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  kafka:
+    bootstrap-servers: broker:29092
+eureka:
+  client:
+    service-url:
+      default-zone: http://serviceregistry:8761/eureka

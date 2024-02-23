@@ -1,0 +1,11 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:9296
+  datasource:
+    url: jdbc:h2:mem:user
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+eureka:
+  client:
+    enabled: false

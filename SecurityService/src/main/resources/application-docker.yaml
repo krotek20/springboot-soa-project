@@ -1,0 +1,18 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5434/user_service
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+eureka:
+  client:
+    service-url:
+      default-zone: http://serviceregistry:8761/eureka
